@@ -14,19 +14,51 @@ body, h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.profile-img {
+  padding-top: 20px;
+  height: auto;
+  width: auto;
+}
+
+#home-photo-credit {
+  float: right;
+  color: white;
+}
+
+figure {
+  max-width: 500px;
+  max-height: 300px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.portfolio-item {
+  padding: 20px;
+}
+
+.img-portfolio {
+  box-sizing:border-box
+  border:1px solid black;
+}
+
+.devicon {
+  font-size: 4rem
+}
+
 .intro-header {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background: url(../img/coffee.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .intro-message {
   position: relative;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 25%;
+  padding-bottom: 25%;
 }
 
 .intro-message>h1 {
@@ -70,21 +102,20 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .network-name {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 2px;
 }
 
-.content-section-a {
+.content-section-a,
+.content-section-b,
+.content-section-c,
+.content-section-d,
+.content-section-e,
+.content-section-f,
+.content-section-g {
   padding: 50px 0;
-  background-color: #f8f8f8;
-}
-
-.content-section-b {
-  padding: 50px 0;
-  border-top: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
 }
 
 .section-heading {
@@ -100,7 +131,7 @@ body, h1, h2, h3, h4, h5, h6 {
 .banner {
   padding: 100px 0;
   color: #f8f8f8;
-  background: url(../img/banner-bg.jpg) no-repeat center center;
+  background: url(../img/seaport-banner.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -142,6 +173,19 @@ body, h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.modal-body {
+  font-weight: 400;
+}
+
+.modal-img {
+  box-shadow: 0 0 1em black;
+  padding: 2em;
+}
+
+.portfolio-box .modal-spacing {
+  margin: 2em;
+}
+
 footer {
   padding: 50px 0;
   background-color: #f8f8f8;
@@ -150,3 +194,5 @@ footer {
 p.copyright {
   margin: 15px 0 0;
 }
+
+a.modal-links { cursor: pointer; }
